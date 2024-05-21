@@ -1,0 +1,16 @@
+greeting:
+  message: "hello"
+quarkus:
+  test:
+    continuous-testing: disabled
+  console:
+    enabled: false
+  datasource:
+    username: app
+    password: app
+    jdbc:
+      url: jdbc:h2:file:./db/java2
+  hibernate-orm:
+    database:
+      generation: create
+      
